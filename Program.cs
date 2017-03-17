@@ -11,12 +11,12 @@ namespace Names
 		private static void Main(string[] args)
 		{
 			NameData[] namesData = ReadData();
-			//Charts.ShowHeatmap(HeatmapTask.GetHistogramBirthsPerDate(namesData));
-			Charts.ShowHistorgam(HistogramSample.GetHistogramBirthsByYear(namesData));
+			Charts.ShowHeatmap(HeatmapTask.GetHistogramBirthsPerDate(namesData));
+			//Charts.ShowHistorgam(HistogramSample.GetHistogramBirthsByYear(namesData));
 			//Charts.ShowHistorgam(HistogramTask.GetHistogramBirthsPerDay(namesData, "юрий"));
 			//Charts.ShowHistorgam(HistogramTask.GetHistogramBirthsPerDay(namesData, "владимир"));
 			//Charts.ShowHistorgam(HistogramTask.GetHistogramLivedInUSSR(namesData));
-            Charts.ShowHistorgam(HistogramTask.GetHistogramAge(namesData));
+            //Charts.ShowHistorgam(HistogramTask.GetHistogramAge(namesData));
             Console.WriteLine();
 		}
 
